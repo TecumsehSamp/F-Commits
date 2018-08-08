@@ -7,6 +7,7 @@ client = bigquery.Client()
 # You need to specify your Google API key in an ENV variable, client doesn't work if no key is found.
 
 d = []
+#Specify list of swear words, not including in GIT for now to keep this SFW.
 swearwords = [""]
 
 def GetData():
